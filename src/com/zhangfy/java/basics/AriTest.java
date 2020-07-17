@@ -8,6 +8,17 @@ public class AriTest {
 		System.out.println(i);
 		i++;
 		System.out.println(i);
+		System.out.println("=====================");
+		int i2 = 2;
+		int i3 = 3;
+		i3 *= i2++;
+		System.out.println(i2);
+		System.out.println(i3);
+		System.out.println("====================");
+		int i4 = 10;
+		i4 += (i4++) + (++i4);
+		//i4 += (i4++);
+		System.out.println(i4);
 	}
 
 }
