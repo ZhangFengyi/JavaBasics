@@ -28,6 +28,22 @@ public class SanYunTest {
 		int i3 = -43;
 		int maxI = (i1 < i2 ? i1 : i2) < i3 ? (i1 < i2 ? i1 : i2) : i3; // 不建议这样写
 		System.out.println(maxI);
+		System.out.println("================");
+		int maxI2;
+		if (i1 > i2) {
+			if (i1 > i3) {
+				maxI2 = i1;
+			} else {
+				maxI2  = i3;
+			}
+		} else {
+			if (i2 > i3) {
+				maxI2 = i2;
+			} else {
+				maxI2 = i3;
+			}
+		}
+		System.out.println(maxI2);
 	}
 
 }

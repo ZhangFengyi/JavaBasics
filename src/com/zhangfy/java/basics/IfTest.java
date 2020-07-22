@@ -39,6 +39,14 @@ public class IfTest {
 		} else {
 			System.out.println("你要成仙啊~");
 		}
+		System.out.println("====================");
+		double d1 = 12.3;
+		double d2 = 32.1;
+		if (d1 > 10 && d2 < 20) {
+			System.out.println(d1 + d2);
+		} else {
+			System.out.println(d1 * d2);
+		}
 	}
 	
 
